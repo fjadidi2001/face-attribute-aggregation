@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Virtual environment
+venv/
+.env
+*.venv
+Pipfile
+Pipfile.lock
+
+# gRPC generated files
+*.pb2.py
+*.pb2_grpc.py
+
+# Logs
+logs/
+*.log
+
+# Data and cached files
+*.sqlite3
+*.db
+*.json
+*.csv
+*.h5
+*.pth
+*.pkl
+
+# Redis and cache files
+dump.rdb
+*.rdb
+*.aof
+
+# Docker files
+docker-compose.override.yml
+docker-data/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test and coverage reports
+.coverage
+*.cover
+htmlcov/
+nose2-junit.xml
+*.pytest_cache/
+
+# Deployment and security files
+.env
+secrets.json
+
+# System files
+.DS_Store
+Thumbs.db
