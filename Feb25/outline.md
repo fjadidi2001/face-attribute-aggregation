@@ -6,4 +6,6 @@
 
 4. Aggregation Service: Once all data (landmarks, age, gender) is available for a UUID, aggregate into a JSON object and save to a file. Also, store the JSON in Redis for quick access.
 
+> Logging needs to be integrated into each service. Each step should log the start and end time, calculate the duration, and store that in a log file or maybe in Redis as well.
+
 
